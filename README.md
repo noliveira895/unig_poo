@@ -13,12 +13,30 @@ Projeto acadêmico em Java demonstrando os pilares da Programação Orientada a 
 
 ## 📁 Estrutura do Projeto
 ```
-src/
-├── Exibivel.java       (Interface)
-├── Usuario.java        (Classe Abstrata)
-├── Evento.java         (Classe Concreta)
-├── Participante.java   (Classe Concreta)
-└── Main.java           (Classe Principal)
+Projeto_Eventos_Geek/
+│
+├── docs/
+│   ├── Relatorio.pdf
+│   ├── Diagramas/
+│   └── Imagens/
+│
+├── backend-java/
+│   └── src/
+│       ├── Usuario.java
+│       ├── Participante.java
+│       ├── Evento.java
+│       ├── Atividade.java
+│       ├── Exibivel.java
+│       └── Main.java
+│
+├── frontend/
+│   ├── src/
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── index.html
+│   └── README.md
+│
+└── README_GERAL.txt
 ```
 
 ## 🔄 Relacionamentos
